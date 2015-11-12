@@ -1,0 +1,158 @@
+.nav a {
+  color: #5a5a5a;
+  font-size: 11px;
+  font-weight: bold;
+  padding: 14px 10px;
+  text-transform: uppercase;
+}
+
+.nav li {
+  display: inline;
+}
+
+.me .container {
+  position: relative;
+  top: 100px;
+}
+
+.jumbotron {
+  background-image:url('./img/jumbo2.jpg');
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.jumbotron .container {
+  position: relative;
+  top:100px;
+}
+
+.jumbotron h1 {
+  color: #fff;
+  font-size: 48px;  
+  font-family: 'Roboto';
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+.jumbotron a{
+  color: #DFF8EB;
+}
+
+.jumbotron p {
+  font-size: 20px;
+  color: #fff;
+}
+
+.learn-more {
+  background-color: #f7f7f7;
+}
+
+.learn-more h3 {
+  font-family: 'Shift', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.learn-more a {
+  color: #00b0ff;
+}
+
+.about {
+  position: relative;
+  text-align: center;
+}
+
+.circle {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background-image:url('./img/me2.jpg');
+  background-size: 500px;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 50px;
+  transition: background-size 1s;
+}
+
+.circle:hover {
+  background-size: 600px;
+}
+
+.layer {
+  width: 300px;
+  height: 300px;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 50%;
+  transition: background-color 2s;
+  transition: color 0.75s;
+  position: absolute;
+  color: rgba(255, 255, 255, 0);
+}
+
+.layer h1 {
+  padding-top: 100px;
+  text-align: center;
+  font-size: 50px;
+}
+
+.layer:hover {
+  background-color: rgba(112, 112, 112, 0.6);
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.me {
+  padding-left: 20px;
+  font-family: 'Avenir Next';
+  font-size: 18px;
+}
+
+.me h1 {
+  color: #555555;
+  font-size: 24px;
+}
+
+.me a {
+  color: #000000;
+}
+
+.x {
+  font-family: ('Avenir Next');
+  color: #000000;
+  text-align: center;
+}
+
+.x b {
+  transition: color 1s;
+}
+
+.x b:hover {
+  color: #AFBBF2;
+}
+
+.prose {
+  font-family: 'Century Gothic';
+  font-size: 16px;
+  margin: 20px;
+}
+
+.prose.cont {
+  text-align: center;
+  font-size: 50px;
+}
+
+.prose li {
+  list-style: none;
+  padding-left: 0;
+}
+
+.prose li:hover {
+  
+}
+
+.piece {
+  padding: 20px;
+}
