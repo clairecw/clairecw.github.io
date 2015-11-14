@@ -16,10 +16,11 @@
 }
 
 .jumbotron {
-  background-image:url('./img/jumbo2.jpg');
+  background-image:url('./img/jumbo1.jpg');
   height: 500px;
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }
 
 .jumbotron .container {
@@ -73,7 +74,6 @@
   background-position: center;
   margin-right: auto;
   margin-left: auto;
-  margin-top: 50px;
   transition: background-size 1s;
 }
 
@@ -126,7 +126,7 @@
 }
 
 .x b {
-  transition: color 1s;
+  transition: color 0.7s;
 }
 
 .x b:hover {
