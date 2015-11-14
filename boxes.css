@@ -28,8 +28,18 @@
   background-size: 450px;
 }
 
+.box.piano {
+  background-image:url('');
+  background-size: 540px;
+}
+
 .box.nemo {
   background-image:url('./img/nemo.jpg');
+}
+
+.box.guitar {
+  background-image:url('./img/guitar.jpg');
+  background-size: 450px;
 }
 
 .boxlayer {
