@@ -82,8 +82,8 @@
 }
 
 .layer {
-  width: 300px;
-  height: 300px;
+  width: inherit;
+  height: inherit;
   margin-right: auto;
   margin-left: auto;
   border-radius: 50%;
@@ -155,4 +155,41 @@
 
 .piece {
   padding: 20px;
+}
+
+.footer {
+  margin-top: 50px;
+  text-align: center;
+  font-family: 'Avenir Next';
+  padding-bottom: 20px;
+}
+
+.footer li {
+  display: inline-block;
+  padding: 10px;
+}
+
+.knob {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-size: 40px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.knob.git {
+  background-image:url('http://i.imgur.com/rZHepmo.png');
+}
+
+.knob.fb {
+  background-image:url('https://cdn3.iconfinder.com/data/icons/peelicons-vol-1/50/Facebook-128.png');
+}
+
+.knob.in {
+  background-image:url('https://cdn3.iconfinder.com/data/icons/peelicons-vol-1/50/LinkedIn-128.png');
+}
+
+.knob.em {
+  background-image:url('http://i.imgur.com/5iqWLaX.png');
 }
