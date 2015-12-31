@@ -43,6 +43,11 @@
   background-size: 450px;
 }
 
+.box.photography {
+  background-image:url('./img/photo.jpg');
+  background-size: 400px;
+}
+
 .boxlayer {
   width: 300px;
   height: 300px;
