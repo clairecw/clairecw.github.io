@@ -48,6 +48,11 @@
   background-size: 500px;
 }
 
+.box.money {
+  background-image:url('./img/momoney.jpg');
+  background-size: 350px;
+}
+
 .boxlayer {
   width: 300px;
   height: 300px;
