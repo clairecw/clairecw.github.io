@@ -69,7 +69,7 @@
   height: 300px;
   border-radius: 50%;
   background-image:url('./img/me2.jpg');
-  background-size: 500px;
+  background-size: 500px 334px;
   background-repeat: no-repeat;
   background-position: center;
   margin-right: auto;
@@ -78,7 +78,7 @@
 }
 
 .circle:hover {
-  background-size: 600px;
+  background-size: 600px 401px;
 }
 
 .layer {
