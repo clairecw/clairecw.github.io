@@ -58,6 +58,11 @@
   background-size: 300px;
 }
 
+.box.branch {
+  background-image:url('./img/branchout.jpg');
+  background-size: 400px;
+}
+
 .boxlayer {
   width: 300px;
   height: 300px;
