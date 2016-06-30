@@ -61,6 +61,7 @@
 .box.branch {
   background-image:url('./img/branchout.jpg');
   background-size: 400px;
+  background-position: center;
 }
 
 .boxlayer {
