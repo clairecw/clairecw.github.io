@@ -65,7 +65,7 @@
 }
 
 .box.cu {
-  background-image:url('./img/hacks.png');
+  background-image:url('img/hacks.png');
   background-size: 500px;
   background-position: left;
 }
