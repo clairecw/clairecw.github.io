@@ -16,7 +16,7 @@
 }
 
 .jumbotron {
-  background-image:url('./img/jumbo1.jpg');
+  background-image:url('../img/jumbo1.jpg');
   height: 500px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -68,7 +68,7 @@
   width: 300px;
   height: 300px;
   border-radius: 50%;
-  background-image:url('./img/me2.jpg');
+  background-image:url('../img/me2.jpg');
   background-size: 500px 334px;
   background-repeat: no-repeat;
   background-position: center;
