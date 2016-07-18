@@ -70,6 +70,12 @@
   background-position: left;
 }
 
+.box.branchapp {
+  background-image:url('../img/branchapp.png');
+  background-size: 300px;
+  background-position: center;
+}
+
 .boxlayer {
   width: 300px;
   height: 300px;
