@@ -76,6 +76,12 @@
   background-position: center;
 }
 
+.box.inertia {
+  background-image:url('../img/inertia.png');
+  background-size: 300px;
+  background-position: center;
+}
+
 .boxlayer {
   width: 300px;
   height: 300px;
