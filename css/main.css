@@ -68,7 +68,7 @@
   width: 300px;
   height: 300px;
   border-radius: 50%;
-  background-image:url('../img/me2.jpg');
+  background-image:url('../img/me3.jpg');
   background-size: 500px 334px;
   background-repeat: no-repeat;
   background-position: center;
@@ -105,7 +105,8 @@
 }
 
 .me {
-  padding-left: 20px;
+  padding-left: 5%;
+  padding-right: 5%;
   font-family: 'Avenir Next';
   font-size: 18px;
 }
@@ -113,10 +114,6 @@
 .me h1 {
   color: #555555;
   font-size: 24px;
-}
-
-.me a {
-  color: #000000;
 }
 
 .x {
