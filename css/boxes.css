@@ -38,11 +38,6 @@
   background-size: 350px;
 }
 
-.box.guitar {
-  background-image:url('../img/guitar.jpg');
-  background-size: 450px;
-}
-
 .box.photography {
   background-image:url('../img/photog.jpg');
   background-size: 500px;
