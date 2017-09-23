@@ -1,0 +1,90 @@
+h1, h2, h4 {
+  text-align: center;
+}
+
+h1 {
+  font-size: 48px;  
+  font-family: 'Roboto';
+  font-weight: bold;
+  margin-top: 18%;
+}
+
+h4 {
+	padding: 10%;
+}
+
+.container {
+	text-align: center;
+	margin: auto;
+}
+
+.container ul {
+
+    margin: auto;
+}
+
+.knob {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-size: 100px;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  margin: 2%;
+}
+
+.knob.git {
+  background-image:url('http://i.imgur.com/rZHepmo.png');
+}
+
+.knob.fb {
+  background-image:url('https://cdn3.iconfinder.com/data/icons/peelicons-vol-1/50/Facebook-128.png');
+}
+
+.knob.in {
+  background-image:url('https://cdn3.iconfinder.com/data/icons/peelicons-vol-1/50/LinkedIn-128.png');
+}
+
+.knob.em {
+  background-image:url('http://i.imgur.com/5iqWLaX.png');
+}
+
+.knob.ig {
+  background-image:url('https://cdn3.iconfinder.com/data/icons/peelicons-vol-1/50/Intsagram-128.png');
+}
+
+.knob.tw {
+	background-image:url('https://cdn3.iconfinder.com/data/icons/peelicons-vol-1/50/Twitter-128.png');
+}
+
+.layer {
+  width: inherit;
+  height: inherit;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 50%;
+  transition: background-color 2s;
+  transition: color 0.75s;
+  position: absolute;
+  color: rgba(255, 255, 255, 0);
+}
+
+.layer h1 {
+  padding-top: 100px;
+  text-align: center;
+  font-size: 50px;
+}
+
+.layer:hover {
+  background-color: rgba(112, 112, 112, 0.6);
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.portfolio b {
+	transition: color 0.6s;
+}
+
+.portfolio b:hover {
+  color: #AFBBF2;
+}

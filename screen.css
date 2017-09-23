@@ -1,0 +1,531 @@
+/*-- Global > Variables --*/
+/*-- Global > Fonts --*/
+.georgia {
+  font-family: Georgia, "Times New Roman", serif;
+}
+.helvetica {
+  font-family: "Helvetica Neue", Helvertica, Arial, sans-serif;
+}
+.futura {
+  font-family: futura-pt, Futura, "Helvetica Neue", Helvertica, Arial, sans-serif;
+}
+/*-- Global > Mixins --*/
+/*-- Global --*/
+body {
+  margin: 180px 0 100px 0;
+  background: #262523;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 14px;
+  color: #1a1a1a;
+  line-height: 1.5;
+}
+a {
+  color: #99ca53;
+}
+a:hover {
+  color: #1a1a1a;
+}
+header,
+nav,
+section,
+article,
+footer {
+  display: block;
+}
+/*-- Global > Structure --*/
+section.page-container {
+  width: 850px;
+  margin: 0 auto;
+  background: #ffffff url(../images/page-background.gif) top center repeat-y;
+  border-bottom: 25px solid #fff;
+  -webkit-box-shadow: 0 5px 20px #1a1a1a;
+  -moz-box-shadow: 0 5px 20px #1a1a1a;
+  box-shadow: 0 5px 20px #1a1a1a;
+  /*-- Primary Header --*/
+
+  /*-- Primary Nav --*/
+
+  /*-- Section/Article --*/
+
+}
+section.page-container header.primary {
+  width: 850px;
+  height: 285px;
+  background: transparent url(./img/fold.png) top center no-repeat;
+  overflow: hidden;
+}
+section.page-container header.primary section.avatar {
+  height: 125px;
+  width: 250px;
+  margin: -130px 0 0 300px;
+  overflow: visible;
+  position: absolute;
+}
+section.page-container header.primary section.avatar img {
+  position: relative;
+  top: -2px;
+  left: -4px;
+}
+section.page-container header.primary section.logo {
+  width: 640px;
+  height: 40px;
+  display: block;
+  margin: 140px auto 30px auto;
+}
+section.page-container header.primary section.logo h1 {
+  height: 52px;
+  width: 640px;
+  margin: 0 auto;
+  display: block;
+  overflow: hidden;
+  background: transparent url(../images/kjg-logo.png) 0 0 no-repeat;
+  text-indent: -10000px;
+}
+section.page-container header.primary section.title {
+  width: 640px;
+  height: 30px;
+  margin: 0 auto;
+  background: transparent url(../images/double-border.png) center center repeat-x;
+}
+section.page-container header.primary section.title h2 {
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+  display: block;
+  font-family: futura-pt, Futura, "Helvetica Neue", Helvertica, Arial, sans-serif;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-shadow: 0 1px 0 #99ca53;
+  line-height: 10px;
+  overflow: hidden;
+}
+section.page-container header.primary section.title h2 span.outer {
+  background: #ffffff url(./img/fold.png) 0 0 no-repeat;
+  padding: 0 0 0 30px;
+  color: #fff;
+  display: inline-block;
+}
+section.page-container header.primary section.title h2 span.outer span.inner {
+  background: #fff;
+  padding: 10px 30px 10px 0;
+  background: #ffffff url(./img/fold.png) top right no-repeat;
+  display: inline-block;
+}
+section.page-container header.primary section.title h2 span.outer span.inner span.divider {
+  width: 9px;
+  height: 9px;
+  display: inline-block;
+  overflow: hidden;
+  text-indent: -10000px;
+  background: transparent url(./img/fold.png) 0 0 no-repeat;
+}
+section.page-container nav.primary {
+  height: 145px;
+  padding: 0 50px;
+  background: #1a1a1a url(./img/fold.png) 0 0;
+  overflow: hidden;
+  border-top: 5px solid #000;
+  border-bottom: 5px solid #000;
+}
+section.page-container nav.primary ul.links {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+section.page-container nav.primary ul.links li.link {
+  float: left;
+  width: 25%;
+  text-align: center;
+}
+section.page-container nav.primary ul.links li.link a {
+  text-decoration: none;
+  -webkit-transition: color 0.2s linear;
+}
+section.page-container nav.primary ul.links li.link a span.icon {
+  height: 40px;
+  width: 40px;
+  margin: 30px auto 0 auto;
+  display: block;
+  background-color: #5b5955;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  -webkit-transition: background-color 0.2s linear;
+}
+section.page-container nav.primary ul.links li.link a span.title {
+  display: block;
+  margin: 10px auto 0 auto;
+  color: #fff;
+  text-transform: uppercase;
+  font-family: futura-pt, Futura, "Helvetica Neue", Helvertica, Arial, sans-serif;
+  font-weight: bold;
+  letter-spacing: 2px;
+  line-height: 1.5;
+  -webkit-transition: color 0.2s linear;
+}
+section.page-container nav.primary ul.links li.link a span.sub-title {
+  font-size: 11px;
+  font-style: italic;
+  text-transform: lowercase;
+  color: #fff;
+}
+section.page-container nav.primary ul.links li.link a span.sub-title span {
+  display: none;
+}
+section.page-container nav.primary ul.links li.link a:hover span.icon {
+  background-color: #fff;
+  -webkit-transition: background-color 0.2s linear;
+}
+section.page-container nav.primary ul.links li.link a:hover span.title {
+  color: #99ca53;
+  -webkit-transition: color 0.2s linear;
+}
+section.page-container nav.primary ul.links span.icon {
+  background-size: 40px;
+}
+section.page-container nav.primary ul.links li.link.work span.icon {
+  background-image: url(./img/portfolio.png);
+}
+section.page-container nav.primary ul.links li.link.resume span.icon {
+  background-image: url(./img/resume.png);
+}
+section.page-container nav.primary ul.links li.link.about span.icon {
+  background-image: url(./img/about.png);
+}
+section.page-container nav.primary ul.links li.link.contact span.icon {
+  background-image: url(./img/contact.png);
+}
+section.page-container section, section.page-container article {
+  /*-- Article --*/
+
+  /*-- Section > Recent Work --*/
+
+  /*-- Section > About Me --*/
+
+}
+section.page-container section header h2, section.page-container article header h2 {
+  background: transparent url(../images/double-border-top.png) top center no-repeat;
+  font-family: futura-pt, Futura, "Helvetica Neue", Helvertica, Arial, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  line-height: 20px;
+  display: block;
+  margin: 0 auto 40px auto;
+  padding: 10px 0 0 0;
+  text-align: center;
+}
+section.page-container section header h2 span, section.page-container article header h2 span {
+  background: transparent url(../images/double-border-bottom.png) bottom center no-repeat;
+  display: block;
+  margin: 0 auto;
+  padding: 0 0 10px 0;
+  -webkit-mask-image: url('../images/title-mask.png');
+  -o-mask-image: url('../images/title-mask.png');
+  -moz-mask-image: url('../images/title-mask.png');
+  mask-image: url('../images/title-mask.png');
+}
+section.page-container section header h2 span a, section.page-container article header h2 span a {
+  color: #1a1a1a;
+  text-decoration: none;
+}
+section.page-container section header h2 span a:hover, section.page-container article header h2 span a:hover {
+  color: #99ca53 !important;
+}
+section.page-container section.post, section.page-container article.post {
+  background: transparent url(./img/fold.png) top center no-repeat;
+  width: 500px;
+  padding: 60px 175px;
+}
+section.page-container section.post blockquote, section.page-container article.post blockquote {
+  font-style: italic;
+}
+section.page-container section.recent-work, section.page-container article.recent-work {
+  background: transparent url(./img/fold.png) top center no-repeat;
+  width: 640px;
+  height: 600px;
+  padding: 60px 105px;
+  overflow: hidden;
+}
+section.page-container section.recent-work ul.projects, section.page-container article.recent-work ul.projects {
+  width: 684px;
+  margin: 0 0 0 -2px;
+  padding: 0;
+  list-style: none;
+}
+section.page-container section.recent-work ul.projects li.project, section.page-container article.recent-work ul.projects li.project {
+  width: 300px;
+  height: 225px;
+  margin: 0 40px 40px 0;
+  overflow: hidden;
+  float: left;
+  border: 1px solid #1a1a1a;
+  -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
+}
+section.page-container section.recent-work ul.projects li.project a, section.page-container article.recent-work ul.projects li.project a {
+  display: block;
+}
+section.page-container section.recent-work ul.projects li.project a img, section.page-container article.recent-work ul.projects li.project a img {
+  display: block;
+  border: none;
+  opacity: .75;
+  -webkit-transition: opacity 0.2s linear;
+}
+section.page-container section.recent-work ul.projects li.project a:hover img, section.page-container article.recent-work ul.projects li.project a:hover img {
+  display: block;
+  opacity: .99;
+  -webkit-transition: opacity 0.2s linear;
+}
+
+section.page-container section.portfolio ul.projects li.project a, section.page-container article.portfolio ul.projects li.project a {
+  display: block;
+}
+section.page-container section.portfolio ul.projects li.project a img, section.page-container article.portfolio ul.projects li.project a img {
+  display: block;
+  border: none;
+  -webkit-filter: grayscale(1);
+  -webkit-transition: grayscale 1s linear;
+}
+section.page-container section.portfolio ul.projects li.project a:hover img, section.page-container article.portfolio ul.projects li.project a:hover img {
+  display: block;
+  
+  -webkit-filter: grayscale(0);
+  -webkit-transition: grayscale 1s linear;
+}
+section.page-container section.portfolio, section.page-container article.portfolio {
+  background: transparent url(./img/fold.png) top center no-repeat;
+  width: 640px;
+  height: 600px;
+  padding: 60px 105px;
+  overflow: hidden;
+}
+section.page-container section.portfolio ul.projects, section.page-container article.portfolio ul.projects {
+  width: 684px;
+  margin: 0 0 0 -2px;
+  padding: 0;
+  list-style: none;
+}
+section.page-container section.portfolio ul.projects li.project, section.page-container article.portfolio ul.projects li.project {
+  width: 300px;
+  height: 300px;
+  margin: 0 40px 40px 0;
+  overflow: hidden;
+  float: left;
+  border: 1px solid #1a1a1a;
+  -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
+}
+
+section.page-container section.recent-work footer, section.page-container article.recent-work footer {
+  text-align: center;
+}
+section.page-container section.recent-work footer a.cta, section.page-container article.recent-work footer a.cta {
+  margin: 0;
+  color: #fff;
+  font-family: futura-pt, Futura, "Helvetica Neue", Helvertica, Arial, sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  text-transform: uppercase;
+  text-shadow: 0 1px 0 #99ca53;
+  letter-spacing: 2px;
+  line-height: 10px;
+}
+section.page-container section.recent-work footer a.cta span.outer, section.page-container article.recent-work footer a.cta span.outer {
+  background: transparent url(./img/fold.png) 0 0 no-repeat;
+  display: inline-block;
+  padding: 0 0 0 30px;
+}
+section.page-container section.recent-work footer a.cta span.outer span.inner, section.page-container article.recent-work footer a.cta span.outer span.inner {
+  background: transparent url(./img/fold.png) top right no-repeat;
+  display: inline-block;
+  padding: 10px 30px 10px 0;
+}
+section.page-container section.recent-work footer a.cta:hover, section.page-container article.recent-work footer a.cta:hover {
+  text-shadow: 0 1px 0 #000;
+}
+section.page-container section.recent-work footer a.cta:hover span.outer, section.page-container article.recent-work footer a.cta:hover span.outer {
+  background-position: 0 -30px;
+}
+section.page-container section.recent-work footer a.cta:hover span.outer span.inner, section.page-container article.recent-work footer a.cta:hover span.outer span.inner {
+  background-position: bottom right;
+}
+section.page-container section.about-me, section.page-container article.about-me {
+  text-align: center;
+  width: 640px;
+  height: 350px;
+  padding: 60px 105px;
+  overflow: hidden;
+  background: transparent url(./img/fold.png) top center no-repeat;
+}
+section.page-container section.resume, section.page-container article.resume {
+  text-align: center;
+  width: 640px;
+  height: 850px;
+  padding: 60px 105px;
+  overflow: hidden;
+  background: transparent url(./img/fold.png) top center no-repeat;
+}
+section.page-container section.portfolio, section.page-container article.resume {
+  text-align: center;
+  width: 640px;
+  height: 2150px;
+  padding: 60px 105px;
+  overflow: hidden;
+  background: transparent url(./img/fold.png) top center no-repeat;
+}
+section.page-container section.contact, section.page-container article.contact {
+  text-align: center;
+  width: 640px;
+  height: 600px;
+  padding: 60px 105px;
+  overflow: hidden;
+  background: transparent url(./img/fold.png) top center no-repeat;
+}
+section.page-container section.about-me section.bio, section.page-container article.about-me section.bio {
+  width: 500px;
+  margin: 0 auto 40px auto;
+}
+section.page-container section.about-me section.elsewhere, section.page-container article.about-me section.elsewhere {
+  margin: 0 auto 60px auto;
+}
+section.page-container section.about-me section.elsewhere h3, section.page-container article.about-me section.elsewhere h3 {
+  display: none;
+}
+section.page-container section.about-me section.elsewhere ul.links, section.page-container article.about-me section.elsewhere ul.links {
+  width: 200px;
+  margin: 0 auto;
+  padding: 0 0 0 10px;
+  list-style: none;
+  overflow: hidden;
+}
+section.page-container section.about-me section.elsewhere ul.links li.link, section.page-container article.about-me section.elsewhere ul.links li.link {
+  height: 40px;
+  width: 40px;
+  margin: 0 10px 0 0;
+  float: left;
+  display: block;
+}
+section.page-container section.about-me section.elsewhere ul.links li.link a, section.page-container article.about-me section.elsewhere ul.links li.link a {
+  height: 41px;
+  width: 41px;
+  display: block;
+  overflow: hidden;
+  text-indent: -10000px;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+}
+section.page-container section.about-me section.elsewhere ul.links li.link a:hover, section.page-container article.about-me section.elsewhere ul.links li.link a:hover {
+  background-position: 0 -40px;
+}
+section.page-container section.about-me section.elsewhere ul.links li.link.twitter a, section.page-container article.about-me section.elsewhere ul.links li.link.twitter a {
+  background-image: url(./img/twitter-icon.png);
+}
+section.page-container section.about-me section.elsewhere ul.links li.link.tumblr a, section.page-container article.about-me section.elsewhere ul.links li.link.tumblr a {
+  background-image: url(../images/tumblr-icon.png);
+}
+section.page-container section.about-me section.elsewhere ul.links li.link.dribbble a, section.page-container article.about-me section.elsewhere ul.links li.link.dribbble a {
+  background-image: url(../images/dribbble-icon.png);
+}
+section.page-container section.about-me section.elsewhere ul.links li.link.rdio a, section.page-container article.about-me section.elsewhere ul.links li.link.rdio a {
+  background-image: url(../images/rdio-icon.png);
+}
+section.page-container section.about-me section.what-i-do header, section.page-container article.about-me section.what-i-do header {
+  background: transparent url(../images/double-border.png) center center repeat-x;
+  overflow: hidden;
+  margin: 0 0 10px 0;
+}
+section.page-container section.about-me section.what-i-do header h3, section.page-container article.about-me section.what-i-do header h3 {
+  margin: 0;
+  color: #fff;
+  font-family: futura-pt, Futura, "Helvetica Neue", Helvertica, Arial, sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  text-transform: uppercase;
+  text-shadow: 0 1px 0 #99ca53;
+  letter-spacing: 2px;
+  line-height: 10px;
+}
+section.page-container section.about-me section.what-i-do header h3 span.outer, section.page-container article.about-me section.what-i-do header h3 span.outer {
+  background: transparent url(../images/titlebar-background.gif) 0 0 no-repeat;
+  display: inline-block;
+  padding: 0 0 0 30px;
+}
+section.page-container section.about-me section.what-i-do header h3 span.outer span.inner, section.page-container article.about-me section.what-i-do header h3 span.outer span.inner {
+  background: transparent url(../images/titlebar-background.gif) top right no-repeat;
+  display: inline-block;
+  padding: 10px 30px 10px 0;
+}
+section.page-container section.about-me section.what-i-do ul.services, section.page-container article.about-me section.what-i-do ul.services {
+  width: 640px;
+  list-style: none;
+  overflow: hidden;
+  margin: 0;
+  padding: 0 0 40px 0;
+  background: transparent url(../images/double-border.png) bottom center repeat-x;
+}
+section.page-container section.about-me section.what-i-do ul.services li.service, section.page-container article.about-me section.what-i-do ul.services li.service {
+  width: 33.333%;
+  float: left;
+}
+section.page-container section.about-me section.what-i-do ul.services li.service span.icon, section.page-container article.about-me section.what-i-do ul.services li.service span.icon {
+  width: 100px;
+  height: 100px;
+  display: block;
+  margin: 0 auto 0 auto;
+  overflow: hidden;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+}
+section.page-container section.about-me section.what-i-do ul.services li.service h4, section.page-container article.about-me section.what-i-do ul.services li.service h4 {
+  margin: 0;
+  font-family: futura-pt, Futura, "Helvetica Neue", Helvertica, Arial, sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  -webkit-mask-image: url('../images/title-mask.png');
+  -o-mask-image: url('../images/title-mask.png');
+  -moz-mask-image: url('../images/title-mask.png');
+  mask-image: url('../images/title-mask.png');
+}
+section.page-container section.about-me section.what-i-do ul.services li.service h5, section.page-container article.about-me section.what-i-do ul.services li.service h5 {
+  margin: 0;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 11px;
+  font-style: italic;
+  font-weight: normal;
+  text-transform: lowercase;
+}
+section.page-container section.about-me section.what-i-do ul.services li.service.consulting span.icon, section.page-container article.about-me section.what-i-do ul.services li.service.consulting span.icon {
+  background-image: url(../images/consulting-icon.png);
+}
+section.page-container section.about-me section.what-i-do ul.services li.service.design span.icon, section.page-container article.about-me section.what-i-do ul.services li.service.design span.icon {
+  background-image: url(../images/design-icon.png);
+}
+section.page-container section.about-me section.what-i-do ul.services li.service.development span.icon, section.page-container article.about-me section.what-i-do ul.services li.service.development span.icon {
+  background-image: url(../images/development-icon.png);
+}
+/*-- Primary Footer --*/
+footer.primary {
+  margin: 40px auto 0 auto;
+  width: 850px;
+  text-align: center;
+}
+footer.primary span.legal {
+  color: #5b5955;
+  font-family: futura-pt, Futura, "Helvetica Neue", Helvertica, Arial, sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 12px;
+  text-shadow: 0 1px 1px #1a1a1a;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}

@@ -1,68 +1,198 @@
+
 <!DOCTYPE html>
+
 <html>
-  <title>Claire Wang | Certified Cool</title>
-  <head>
-    <link rel="stylesheet" href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css">
-    <link rel="stylesheet" href="./css/main.css">
-    <link rel="icon" href="./img/icon.jpg">
-  </head>
+	<head>
+		<title>Claire Wang</title>
+		
+		<!-- Styles -->
+		<link rel="stylesheet" type="text/css" href="screen.css"/>
+		<link rel="stylesheet" type="text/css" href="main.css"/>
+    	<link rel="icon" href="./img/icon.png">
+		
+		<!-- Scripts -->
+		<script type="text/javascript" src="http://use.typekit.com/bgq7hwd.js"></script>
+		<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+		<script type="text/javascript" src="smoothscroll.js"></script>
+		
+		<!--[if lt IE 9]>
+			<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+	</head>
+	
+	<body>
+		<section class="page-container">
+			<header class="primary">
+				<section class="avatar">
+					<a href="./index.html">
+						<img src="./img/cutmypic.png" title="That's me!" alt="There should be a picture of me here." width="258" height="258"/>
+					</a>
+				</section>
+				<div class="container">
+					<h1 style="line-height:30px;">Claire Wang
+					<i style="font-size:15px;font-weight:lighter"><br>a personal site</i></h1>
+				</div>
+			</header>
+			
+			<nav class="primary">
+				<ul class="links">
+					<li class="link work">
+						<a href="./portfolio.html" title="Portfolio">
+							<span class="icon"></span>
+							<span class="title">Portfolio</span>
+						</a>
+					</li>
+					
+					<li class="link resume">
+						<a href="#resume" title="Resume">
+							<span class="icon"></span>
+							<span class="title">Resume</span>
+						</a>
+					</li>
+					
+					<li class="link about">
+						<a href="#about-me" title="About">
+							<span class="icon"></span>
+							<span class="title">About</span>
+						</a>
+					</li>
+					
+					<li class="link contact">
+						<a href="#contact" title="Contact">
+							<span class="icon"></span>
+							<span class="title">Contact</span>
+						</a>
+					</li>
+				</ul>
+			</nav>
+			
+			<section class="recent-work">
+				<h2><span>Recent Work</span></h2>
+				
+				<ul class="projects">
+					<li class="project">
+						<a href="https://clairecw.github.io/Inertia/">
+							<img src="./img/inertia.png" title="Inertia Simulator" alt="Inertia Simulator" width="300" height="225"/>
+						</a>
+					</li>
+					
+					<li class="project">
+						<a href="https://clairecw.github.io/Origami/">
+							<img src="./img/origami.png" title="Origami" alt="Origami" width="300" height="225"/>
+						</a>
+					</li>
+					
+					<li class="project">
+						<a href="bit.ly/BranchOutEdu">
+							<img src="./img/branchout.jpg" title="Branch Out" alt="Branch Out" width="300" height="225"/>
+						</a>
+					</li>
+					
+					<li class="project">
+						<a href="https://sccl.org">
+							<img src="./img/cu.jpg" title="CU Hacks" alt="CU Hacks" width="300" height="225"/>
+						</a>
+					</li>
+				</ul>
+			</section>
+			
+			<section id="about-me" class="about-me">
+				<h2><span>About Me</span></h2>
+				<section class="bio">
+					<p>
+						Hey there! I'm Claire Wang.<br><br>
+						I'm a freshman at Carnegie Mellon University's School of Computer Science in the city of Pittsburgh, Pennsylvania.<br><br>
+						Outside of school, I swim, play piano, build mobile apps, play with my pet cat, and teach kids to do things that I've gotten good at doing. <br>I enjoy teaching these things so much that I <a href="https://bit.ly/BranchOutEdu">co-founded an organization</a> dedicated to doing just that, all while trying to tackle the behemoth that is socioeconomic equality (check us out!). <br><br>For more information about me, check out my <a href="portfolio.html">projects portfolio</a> or <a href="#resume">resume</a>!
+					</p>
+				</section>
+				<!--
+				<section class="what-i-do">
+					<header>
+						<h3><span class="outer"><span class="inner">What I Do</span></span></h3>
+					</header>
+					
+					<ul class="services">
+						<li class="service consulting">
+							<span class="icon"></span>
+							<h4>Consulting</h4>
+							<h5>Discovery, Analysis, Strategy</h5>
+						</li>
+						
+						<li class="service design">
+							<span class="icon"></span>
+							<h4>Design</h4>
+							<h5>UI, IA, Web, Mobile</h5>
+						</li>
+						
+						<li class="service development">
+							<span class="icon"></span>
+							<h4>Development</h4>
+							<h5>HTML, CSS</h5>
+						</li>
+					</ul>
+				</section>-->
+			</section>
 
-  <body>
-    <div class="nav">
-      <div class="container">
-        <ul class="pull-left">
-          <li><a href="index.html">Claire</a></li>
-          <li><a href="portfolio.html">Portfolio</a></li>
-          <li><a href="resume.html">Resume</a></li>
-        </ul>
-        <ul class="pull-right">
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </div>
-    </div>
+			<section id="resume" class="resume">
+				<h2><span>Resume</span></h2>
+				<div class="container">
+		            <h3>Education</h3>
+		            <ul>
+		              <li>Graduated 2017 from Monta Vista High School - 4.0/4.0 GPA.</li>
+		              <li>Taken Intro to SQL and Intro to Big Data courses at De Anza College.</li>
+		              <li>Completed Intro to Java and APCS courses at Monta Vista.</li>
+		              <li>Attending Carnegie Mellon University's School of Computer Science 2017 - 2021.</li>
+		            </ul>
+		            <br>
+		            <h3>Experience</h3>
+		              <ul>
+		                <li>Co-founder and head instructor, Branch Out Education</li>
+		                <li>Host and organizer, Cupertino Library 2016 and 2017 Teen Hackathons</li>
+		                <li>Code coach, The CoderSchool Cupertino</li>
+		                <li>Website manager, Shuang Shuang Chinese School</li>
+		                <li>Volunteer coding instructor, Code for Fun</li>
+		                <li>Teen Advisory Board member, Cupertino Public Library</li>
+		                <li>Swim instructor, Saratoga Star Aquatics Swim School</li>
+		                <li>Participant, Monterey Bay Aquarium Fishackathon 2014</li>
+		                <li>Participant, Cupertino Library 2015 Teen Hackathon</li>
+		              </ul>
+		              <br>
+		            <h3>Skills</h3>
+		            <b>Languages</b>
+		            <ul>
+		                <li>Proficient in Swift, Java, CSS/HTML, MySQL, and Python</li>
+		                <li>Familiar with C++ and Javascript</li>
+		            </ul><br>
+		            <b>Tools and Systems</b>
+		            <ul>
+		                <li>Proficient with Linux Command Line, bash</li>
+		                <li>Familiar with Chrome Extensions, vim, Git, and JQuery</li>
+		            </ul>
+		            
+		          </div>
 
-    <div class="x">
-      <h1>Claire</h1>
-      <p>An introduction of myself.</p>
-    </div>
+	            <br>
+	            <p>For a more formal resume with additional description and references, feel free to contact me at <a href="mailto:clairew1@andrew.cmu.edu">clairew1@andrew.cmu.edu</a>. <br>I'm currently seeking any software development opportunities, so fire away!
+	            </p>
 
-    <div class="about">
-      <div class="circle">
-        <div class="layer">
-          <h1>This is me.</h1>
-        </div>
-      </div>
-    </div>
-    
-    <div class="me">
-      <h1> Hey there! I'm Claire Wang.</h1>
-      <p>
-      I'm a rising freshman at Carnegie Mellon University's School of Computer Science in the city of Pittsburgh, Pennsylvania.<br>
-      <br>
-      Outside of school, I swim, play piano, build mobile apps, play with my pet cat (not a euphemism) and teach kids to do things that I've gotten good at doing. <br>
-      I enjoy teaching these things so much that I co-founded <a href="https://bit.ly/BranchOutEdu">an organization</a> dedicated to doing just that, all while trying to tackle the behemoth that is socioeconomic equality (check us out!).
+			</section>
 
-      <br><br>
+			<section id="contact" class="contact">
+				<h2><span>Contact</span></h2>
+				<p>It's 2017 - getting in touch with me is (hopefully) easier than ever.</p>
+				  <ul>
+				      <li><a href="https://github.com/clairecw"><div class="knob git" title="Github"><div class="layer"></div></div></a><a href="https://www.facebook.com/claire.wang.902604"><div class="knob fb"><div class="layer"></div></div></a></li>
+			          <li><a href="https://www.linkedin.com/in/claire-wang-7a83a8107"><div class="knob in"><div class="layer"></div></div></a><a href="https://www.instagram.com/_claire_cw_"><div class="knob ig"><div class="layer"></div></div></a></li>
+			          <li><a href="mailto:claire.w8808@gmail.com"><div class="knob em"><div class="layer"></div></div></a><a href="https://twitter.com/burninwitch"><div class="knob tw"><div class="layer"></div></div></a></li>
+				  
+				  </ul>
+			    
+			</section>
 
-      For more information about me, check out my <a href="./portfolio.html">projects portfolio</a> or <a href="./resume.html">resume</a>!
-      </p>
-
-
-    </div>
-      
-    <div class="footer">
-      <div class="container">
-        <ul class="pull-left">
-          <li><a href="https://github.com/clairecw"><div class="knob git"><div class="layer"></div></div></a></li>
-          <li><a href="https://www.facebook.com/claire.wang.902604"><div class="knob fb"><div class="layer"></div></div></a></li>
-          <li><a href="https://www.linkedin.com/in/claire-wang-7a83a8107"><div class="knob in"><div class="layer"></div></div></a></li>
-        </ul>
-        <ul class="pull-right">
-          <li><a href="mailto:claire.w8808@gmail.com"><div class="knob em"><div class="layer"></div></div></a></li>
-        </ul>
-      </div>
-      Copyright Claire Wang 2017.
-    </div>
-
-  </body>
+		
+		
+		<footer class="primary">
+			<span class="legal">Copyright Claire Wang 2017.</span>
+		</footer>
+	</body>
 </html>
