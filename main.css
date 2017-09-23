@@ -35,27 +35,27 @@ h4 {
 }
 
 .knob.git {
-  background-image:url('http://i.imgur.com/rZHepmo.png');
+  background-image:url(./img/knob-git.png);
 }
 
 .knob.fb {
-  background-image:url('https://cdn3.iconfinder.com/data/icons/peelicons-vol-1/50/Facebook-128.png');
+  background-image:url(./img/knob-fb.png);
 }
 
 .knob.in {
-  background-image:url('https://cdn3.iconfinder.com/data/icons/peelicons-vol-1/50/LinkedIn-128.png');
+  background-image:url(./img/knob-in.png);
 }
 
 .knob.em {
-  background-image:url('http://i.imgur.com/5iqWLaX.png');
+  background-image:url(./img/knob-em.png);
 }
 
 .knob.ig {
-  background-image:url('https://cdn3.iconfinder.com/data/icons/peelicons-vol-1/50/Intsagram-128.png');
+  background-image:url(./img/knob-ig.png);
 }
 
 .knob.tw {
-	background-image:url('https://cdn3.iconfinder.com/data/icons/peelicons-vol-1/50/Twitter-128.png');
+	background-image:url(./img/knob-tw.png);
 }
 
 .layer {
