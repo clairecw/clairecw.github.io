@@ -372,7 +372,7 @@ section.page-container section.resume, section.page-container article.resume {
 section.page-container section.portfolio, section.page-container article.resume {
   text-align: center;
   width: 640px;
-  height: 2150px;
+  height: 2800px;
   padding: 60px 105px;
   overflow: hidden;
   background: transparent url(./img/fold.png) top center no-repeat;
