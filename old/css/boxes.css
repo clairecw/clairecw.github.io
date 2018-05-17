@@ -83,22 +83,16 @@
 
 .boxlayer {
   width: 300px;
-  height: 300px;
+  height: 0px;
   transition: background-color 2s;
-  transition: color 0.5s;
   color: rgba(255, 255, 255, 0);
-  position: absolute;
+  position: relative;
   text-align: center;
   padding-top: 5%;
 }
 
 .boxlayer:hover {
   background-color: rgba(112, 112, 112, 0.6);
-  color: rgba(255, 255, 255, 0.8);
-}
-
-.boxlayer:hover .button {
-  opacity: 1;
 }
 
 .boxlayer p {
