@@ -1,174 +1,442 @@
-
 <!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Claire Wang</title>
+        <link rel="icon" type="image/x-icon" href="./img/icon.png" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v5.12.1/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
+        <link href="css/styles.css" rel="stylesheet" />
+        <link href="css/custom.css" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+            <div class="container">
+                
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav text-uppercase ml-auto">
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#resume">Resume</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a></li>
+                        
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- About-->
+        <section class="page-section" id="about">
+            <div class="container">
+                <div class="text-center">
+                    <!-- <h2 class="section-heading text-uppercase mb-5">About Me</h2> -->
+                    <div class="row mt-5">
+                        <div class="col-lg-4">
+                            <div class="team-member">
+                                <img class="mx-auto rounded-circle" src="./img/claire.jpg" alt="" />
+                            </div>
+                        </div>
+                        <div class="col-lg-8 mx-auto text-left">
+                            <p class="large">Hey there! I'm Claire Wang.</p>
+                            <p class="large">I'm a rising senior at Carnegie Mellon University's School of Computer Science in the city of Pittsburgh, Pennsylvania.</p>
+                            <p class="large">Outside of school, I skateboard, dance, and teach. <br><br>For more information about me, check out my <a href="#portfolio">projects portfolio</a> or <a href="#resume">resume</a>!</p>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+        <section class="page-section" id="resume">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Resume</h2>
+                    <h3 class="mt-5">Education</h3>
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8 text-center">
+                            <p class="mb-3">
+                              Attending Carnegie Mellon University's School of Computer Science 2017 - 2020<br> Minors in machine learning and ethics. <br>
+                            </p>
+                            <p>
+                              Completed coursework: Imperative and Functional Programming; Parallel and Sequential Data Structures; AI: Representation and Problem-Solving; Probability Theory; Intro to ML; Database Systems; ML for Structured Data; Software Foundations of Security & Privacy; Modern Regression.<br>
+                            </p>
+                        </div>
+                    </div>
 
-<html>
-	<head>
-		<title>Claire Wang</title>
-		
-		<!-- Styles -->
-		<link rel="stylesheet" type="text/css" href="screen.css"/>
-		<link rel="stylesheet" type="text/css" href="main.css"/>
-    	<link rel="icon" href="./img/icon.png">
-		
-		<!-- Scripts -->
-		<script type="text/javascript" src="http://use.typekit.com/bgq7hwd.js"></script>
-		<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-		<script type="text/javascript" src="smoothscroll.js"></script>
-		
-		<!--[if lt IE 9]>
-			<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-		<![endif]-->
-	</head>
-	
-	<body>
-		<section class="page-container">
-			<header class="primary">
-				<section class="avatar">
-					<a href="./index.html">
-						<img src="./img/cutmypic.png" title="That's me!" alt="There should be a picture of me here." width="258" height="258"/>
-					</a>
-				</section>
-				<div class="container">
-					<h1 style="line-height:30px;">Claire Wang
-					<i style="font-size:15px;font-weight:lighter"><br>student and developer</i></h1>
-				</div>
-			</header>
-			
-			<nav class="primary">
-				<ul class="links">
-					<li class="link work">
-						<a href="./portfolio.html" title="Portfolio">
-							<span class="icon"></span>
-							<span class="title">Portfolio</span>
-						</a>
-					</li>
-					
-					<li class="link resume">
-						<a href="#resume" title="Resume">
-							<span class="icon"></span>
-							<span class="title">Resume</span>
-						</a>
-					</li>
-					
-					<li class="link about">
-						<a href="#about-me" title="About">
-							<span class="icon"></span>
-							<span class="title">About</span>
-						</a>
-					</li>
-					
-					<li class="link contact">
-						<a href="#contact" title="Contact">
-							<span class="icon"></span>
-							<span class="title">Contact</span>
-						</a>
-					</li>
-				</ul>
-			</nav>
-			
-			<section class="recent-work">
-				<h2><span>Recent Work</span></h2>
-				
-				<ul class="projects">
-					<li class="project">
-						<a href="https://clairecw.github.io/Inertia/">
-							<img src="./img/inertia.png" title="Inertia Simulator" alt="Inertia Simulator" width="300" height="225"/>
-						</a>
-					</li>
-					
-					<li class="project">
-						<a href="https://clairecw.github.io/Origami/">
-							<img src="./img/origami.png" title="Origami" alt="Origami" width="300" height="225"/>
-						</a>
-					</li>
-					
-					<li class="project">
-						<a href="bit.ly/BranchOutEdu">
-							<img src="./img/branchout.jpg" title="Branch Out" alt="Branch Out" width="300" height="225"/>
-						</a>
-					</li>
-					
-					<li class="project">
-						<a href="https://github.com/clairecw/storeboard">
-							<img src="./img/storeboard.png" title="Storeboard" alt="Storeboard" width="300" height="225"/>
-						</a>
-					</li>
-				</ul>
-			</section>
-			
-			<section id="about-me" class="about-me">
-				<h2><span>About Me</span></h2>
-				<section class="bio">
-					<p>
-						Hey there! I'm Claire Wang.<br><br>
-						I'm a rising sophomore at Carnegie Mellon University's School of Computer Science in the city of Pittsburgh, Pennsylvania.<br><br>
-						Outside of school, I skateboard, dance, build web and mobile apps, (try to) explore the city, and teach kids to do things that I've gotten good at doing. <br>I enjoy teaching these things so much that I <a href="https://bit.ly/BranchOutEdu">co-founded an organization</a> dedicated to doing just that, all while trying to tackle the behemoth that is socioeconomic equality. <br><br>For more information about me, check out my <a href="portfolio.html">projects portfolio</a> or <a href="#resume">resume</a>!
-					</p>
-				</section>
-			</section>
+                    <h3 class="mt-5">Experience</h3>
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8 text-center">
+                            <p class="mb-3">
+                                Engineering Practicum intern, Google<br>
+                                Software engineering intern, Dick's Sporting Goods<br>
+                                Head teaching assistant, Carnegie Mellon University (15-281)<br>
+                                Teaching assistant, Carnegie Mellon University (15-122)<br>
+                                Research assistant, CMU Institute of Software Research<br>
+                                Curriculum developer, Carnegie Mellon Teknowledge<br>
+                                Web developer and committee member, Carnegie Mellon Women @ School of Computer Science<br>
+                                Co-founder and head instructor, Branch Out Education
+                                
+                            </p>
+                        </div>
+                    </div>
 
-			<section id="resume" class="resume">
-				<h2><span>Resume</span></h2>
-				<div class="container">
-		            <h3>Education</h3>
-		            <ul>
-		              <li>Attending Carnegie Mellon University's School of Computer Science 2017 - 2021.</li>
-		              <li>Completed 15-122: Principles of Imperative Computation; 36-241: Matrices and Linear Transformations; 15-151: Mathematical Foundations of Computer Science; 15-251: Great Theoretical Ideas in Computer Science; 15-150: Principles of Functional Programming</li>
-		              <li>Graduated 2017 from Monta Vista High School - 4.0/4.0 GPA.</li>
-		              <li>Taken Intro to SQL and Intro to Big Data courses at De Anza College.</li>
-		              <li>Completed Intro to Java and APCS courses at Monta Vista.</li>
-		            </ul>
-		            <br>
-		            <h3>Experience</h3>
-		              <ul>
-		              	<li>Software engineering intern, Dick's Sporting Goods</li>
-		              	<li>Teaching assistant, Carnegie Mellon University (15-122)</li>
-		              	<li>Curriculum developer, Carnegie Mellon Teknowledge</li>
-		              	<li>Web developer and committee member, Carnegie Mellon Women@SCS</li><br>
-		                <li>Co-founder and head instructor, Branch Out Education</li>
-		                <li>Host and organizer, Cupertino Library 2016 and 2017 Teen Hackathons</li>
-		                <li>Code coach, The CoderSchool Cupertino</li>
-		                <li>Volunteer coding instructor, Code for Fun</li>
-		                <li>Teen Advisory Board member, Cupertino Public Library</li>
-		                <li>Swim instructor, Saratoga Star Aquatics Swim School</li>
-		              </ul>
-		              <br>
-		            <h3>Skills</h3>
-		            <b>Languages</b>
-		            <ul>
-		                <li>Proficient in Swift, Java, SML, C, CSS/HTML, PHP, MySQL, and Python</li>
-		                <li>Familiar with C++ and Javascript</li>
-		            </ul><br>
-		            <b>Tools and Systems</b>
-		            <ul>
-		                <li>Proficient with Linux Command Line, bash</li>
-		                <li>Familiar with Chrome Extensions, vim, Git, and JQuery</li>
-		            </ul>
-		            
-		          </div>
+                    <h3 class="mt-5">Skills</h3>
+                    <div class="row justify-content-center">
 
-	            <br>
-	            <p>For a more formal resume with additional description and references, feel free to contact me at <a href="mailto:clairew1@cs.cmu.edu">clairew1@cs.cmu.edu</a>. 
-	            </p>
+                        <div class="col-lg-8 text-center mt-3">
+                            <h3 class="section-subheading">Languages</h3>
+                            <p class="mb-3">
+                                Proficient in Python, Java, SML, C, C++, CSS/HTML, PHP, SQL, Javascript, Angular, and Typescript<br>
+                                Familiar with Swift, R, and Ruby/Rails<br> 
+                            </p>
+                            <h3 class="section-subheading mt-5">Tools and Systems</h3>
+                            <p>
+                              Proficient with Java Spring, Guice, Gurobi Optimizer<br>
+                              Familiar with Cucumber
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+        <!-- Portfolio Grid-->
+        <section class="page-section bg-light" id="portfolio">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Portfolio</h2>
+                    <h3 class="section-subheading text-muted mb-5">Some <b class="hovercolor">colorful highlights</b> in my work or personal projects.</h3>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1"
+                                ><div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="img/deepsteer.jpg" alt=""
+                            /></a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Deep Steering</div>
+                                <div class="portfolio-caption-subheading text-muted">PyTorch</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2"
+                                ><div class="portfolio-hover">
+                                    <!-- <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div> -->
+                                </div>
+                                <img class="img-fluid" src="img/storeboard.png" alt=""
+                            /></a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Storeboard</div>
+                                <div class="portfolio-caption-subheading text-muted">Full-stack</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3"
+                                ><div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="img/wscs.png" alt=""
+                            /></a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Women@SCS</div>
+                                <div class="portfolio-caption-subheading text-muted">Web development</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal4"
+                                ><div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="img/bo.jpg" alt=""
+                            /></a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Branch Out Education</div>
+                                <div class="portfolio-caption-subheading text-muted"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4 mb-sm-0">
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal5"
+                                ><div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="img/inertia2.png" alt=""
+                            /></a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Inertia Simulator</div>
+                                <div class="portfolio-caption-subheading text-muted"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr class="divider dark my-5" />
 
-			</section>
+                <div class="row">
+                    <div class="col-lg-6 col-sm-6 mb-4">
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModalA1"
+                                ><div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="img/ds.jpg" alt=""
+                            /></a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Dance</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-sm-6 mb-4">
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModalA2"
+                                ><div class="portfolio-hover">
+                                    <!-- <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div> -->
+                                </div>
+                                <img class="img-fluid" src="img/sk8.jpg" alt=""
+                            /></a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Skateboarding</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+        <section class="py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-sm-6 my-3">
+                        <a href="#!"><img class="img-fluid d-block mx-auto" src="assets/img/logos/envato.jpg" alt="" /></a>
+                    </div>
+                    <div class="col-md-3 col-sm-6 my-3">
+                        <a href="#!"><img class="img-fluid d-block mx-auto" src="assets/img/logos/designmodo.jpg" alt="" /></a>
+                    </div>
+                    <div class="col-md-3 col-sm-6 my-3">
+                        <a href="#!"><img class="img-fluid d-block mx-auto" src="assets/img/logos/themeforest.jpg" alt="" /></a>
+                    </div>
+                    <div class="col-md-3 col-sm-6 my-3">
+                        <a href="#!"><img class="img-fluid d-block mx-auto" src="assets/img/logos/creative-market.jpg" alt="" /></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="page-section" id="contact">
+            <div class="container">
+                <div class="text-center mb-5">
+                    <h2 class="section-heading text-uppercase">Contact</h2>
+                </div>
+                <p class="text-center">
+                    <a class="btn btn-secondary btn-lg mx-2" href="https://github.com/clairecw"><i class="fab fa-github"></i></a>
+                    <a class="btn btn-secondary btn-lg mx-2" href="https://twitter.com/burninwitch"><i class="fab fa-twitter"></i></a>
+                    <a class="btn btn-secondary btn-lg mx-2" href="https://www.facebook.com/claire.wang.902604"><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-secondary btn-lg mx-2" href="https://www.linkedin.com/in/claire-wang-7a83a8107/"><i class="fab fa-linkedin-in"></i></a>
+                </p>
+            </div>
+        </section>
+        <!-- Footer-->
+        <footer class="footer py-4">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-4 text-lg-center">Copyright © Claire Wang 2020</div>
+                </div>
+            </div>
+        </footer>
 
-			<section id="contact" class="contact">
-				<h2><span>Contact</span></h2>
-				<p>It's 2018 - getting in touch with me is (hopefully) easier than ever.</p>
-				  <ul>
-				      <li><a href="https://github.com/clairecw"><div class="knob git" title="Github"><div class="layer"></div></div></a><a href="https://www.facebook.com/claire.wang.902604"><div class="knob fb"><div class="layer"></div></div></a></li>
-			          <li><a href="https://www.linkedin.com/in/claire-wang-7a83a8107"><div class="knob in"><div class="layer"></div></div></a><a href="https://www.instagram.com/_claire_cw_"><div class="knob ig"><div class="layer"></div></div></a></li>
-			          <li><a href="mailto:clairew1@cs.cmu.edu"><div class="knob em"><div class="layer"></div></div></a><a href="https://twitter.com/burninwitch"><div class="knob tw"><div class="layer"></div></div></a></li>
-				  
-				  </ul>
-			    
-			</section>
-
-		
-		
-		<footer class="primary">
-			<span class="legal">Copyright Claire Wang 2018.</span>
-		</footer>
-	</body>
+        <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal"><img src="img/close-icon.svg" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project Details Go Here-->
+                                    <h2 class="text-uppercase">Deep Steering</h2>
+                                    <p class="item-intro text-muted">Deep neural network for predicting steering wheel angles.</p>
+                                    <img class="img-fluid d-block mx-auto" src="img/deepsteer.jpg" alt="" />
+                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                                    <ul class="list-inline">
+                                        <li>2020</li>
+                                        <li>Python</li>
+                                    </ul>
+                                    <button class="btn btn-primary" data-dismiss="modal" type="button"><i class="fas fa-times mr-1"></i>Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal 2-->
+        <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal"><img src="img/close-icon.svg" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project Details Go Here-->
+                                    <h2 class="text-uppercase">DSG Storeboard</h2>
+                                    <p class="item-intro text-muted">Metrics tracking dashboard for retail order fulfillments.</p>
+                                    <img class="img-fluid d-block mx-auto" src="img/storeboard.jpg" alt="" />
+                                    <p>I designed and built a metrics display dashboard for store associates to track performance stats as my final project interning with Dick's Sporting Goods.</p>
+                                    <ul class="list-inline">
+                                        <li>2018</li>
+                                        <li>Java, Typescript, Angular</li>
+                                    </ul>
+                                    <button class="btn btn-primary" data-dismiss="modal" type="button"><i class="fas fa-times mr-1"></i>Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal 3-->
+        <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal"><img src="img/close-icon.svg" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project Details Go Here-->
+                                    <h2 class="text-uppercase">Women@SCS Web Dev</h2>
+                                    <!-- <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p> -->
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/03-full.jpg" alt="" />
+                                    <p>I work on redesigning and maintaining the new Women@SCS website. I'm also part of the committee that plans and organizes club events.</p>
+                                    <ul class="list-inline">
+                                        <li>2017 - present</li>
+                                        <li>PHP, CSS</li>
+                                    </ul>
+                                    <button class="btn btn-primary" data-dismiss="modal" type="button"><i class="fas fa-times mr-1"></i>Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal"><img src="img/close-icon.svg" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <h2 class="text-uppercase">Branch Out Education</h2>
+                                    <p class="item-intro text-muted">An organization dedicated to promoting equality in education.</p>
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/04-full.jpg" alt="" />
+                                    <p>In 2016, I cofounded the organization Branch Out with my friend and colleague Shreya Parjan, bringing educational opportunities to young innovators across all backgrounds. We launched our pilot program, the Innovation Lab, that summer.</p>
+                                    <ul class="list-inline">
+                                        <li>2016 - 2018</li>
+                                        <li>Education</li>
+                                    </ul>
+                                    <button class="btn btn-primary" data-dismiss="modal" type="button"><i class="fas fa-times mr-1"></i>Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal 5-->
+        <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal"><img src="img/close-icon.svg" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project Details Go Here-->
+                                    <h2 class="text-uppercase">Inertia Simulator</h2>
+                                    <p class="item-intro text-muted">Lightweight simulator for a Physics C inertia lab.</p>
+                                    <img class="img-fluid d-block mx-auto" src="img/inertia.png" alt="" />
+                                    <p>I created a more lightweight, efficient version of Raman Pfaff's moment of inertia lab simulation using Processing and JavaScript to aid with concepts covered in Physics C: Mechanics. Developed for web.</p>
+                                    <ul class="list-inline">
+                                        <li>2017</li>
+                                        <li>Python, Javascript</li>
+                                    </ul>
+                                    <button class="btn btn-primary" data-dismiss="modal" type="button"><i class="fas fa-times mr-1"></i>Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="portfolio-modal modal fade" id="portfolioModalA1" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal"><img src="img/close-icon.svg" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project Details Go Here-->
+                                    <h2 class="text-uppercase">Dance!!</h2>
+                                    <!-- <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p> -->
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/06-full.jpg" alt="" />
+                                    <p>I started learning hip-hop dance with the student organizations Dancers' Symposium and KPDC, performing with them on a semester basis.</p>
+                                    
+                                    <button class="btn btn-primary" data-dismiss="modal" type="button"><i class="fas fa-times mr-1"></i>Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="portfolio-modal modal fade" id="portfolioModalA2" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal"><img src="img/close-icon.svg" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <h2 class="text-uppercase">Skateboarding</h2>
+                                    <!-- <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p> -->
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/06-full.jpg" alt="" />
+                                    <p>I recently started teaching myself to skateboard. Use it mostly to get around quickly, but hope to one day master a couple of tricks!</p>
+                                    
+                                    <button class="btn btn-primary" data-dismiss="modal" type="button"><i class="fas fa-times mr-1"></i>Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+        <!-- Third party plugin JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+        <!-- Contact form JS-->
+        <script src="assets/mail/jqBootstrapValidation.js"></script>
+        <script src="assets/mail/contact_me.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
 </html>

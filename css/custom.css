@@ -1,0 +1,11 @@
+.large {
+  font-size: 25px;
+}
+
+.hovercolor {
+  transition: color 0.5s;
+}
+
+.hovercolor:hover {
+  color: #AFBBF2;
+}
