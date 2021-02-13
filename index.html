@@ -26,6 +26,7 @@
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#resume">Resume</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">Interests</a></li>
                         
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contact</a></li>
                     </ul>
@@ -40,13 +41,13 @@
                     <div class="row mt-5">
                         <div class="col-lg-4">
                             <div class="team-member">
-                                <img class="mx-auto rounded-circle" src="./img/claire.jpg" alt="" />
+                                <img class="mx-auto rounded-circle white-border" src="./img/claire.jpg" alt="" />
                             </div>
                         </div>
                         <div class="col-lg-8 mx-auto text-left">
                             <p class="large">Hey there! I'm Claire Wang.</p>
                             <p class="large">I'm a software engineer, AI/ML enthusiast, and recent graduate from Carnegie Mellon.</p>
-                            <p class="large">Outside of software, I love skateboarding, reading, and teaching. <br><br>For more information about me, check out my <a href="#portfolio">projects portfolio</a> or <a href="#resume">resume</a>!</p>
+                            <p class="large">Outside of software, I love skateboarding,  teaching, reading, and watching movies/TV. <br><br>For more information about me, check out my <a href="#portfolio">projects portfolio</a> or <a href="#resume">resume</a>!</p>
                         </div>
                     </div>
                 </div>
@@ -74,13 +75,13 @@
                         <div class="col-lg-8 text-center">
                             <p class="mb-3">
                                 Full-time software engineer, Lyft (current) <br>
+                                Research assistant, AI for Social Good Lab with <a href="https://feifang.info/research/" target="_blank">Fei Fang</a><br>
                                 Software engineering intern, Lyft<br>
                                 Software engineering intern, Balbix<br>
                                 Engineering Practicum intern, Google<br>
                                 Software engineering intern, Dick's Sporting Goods<br>
                                 Head teaching assistant, Carnegie Mellon University (15-281)<br>
                                 Teaching assistant, Carnegie Mellon University (15-122)<br>
-                                Research assistant, CMU Institute of Software Research<br>
                                 Curriculum developer, Carnegie Mellon Teknowledge<br>
                                 Web developer and committee member, Carnegie Mellon Women @ School of Computer Science<br>
                                 Co-founder and head instructor, Branch Out Education
@@ -109,15 +110,15 @@
         </section>
         <!-- Portfolio Grid-->
         <section class="page-section bg-light" id="portfolio">
-            <div class="container">
+            <div class="container mb-4">
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase">Portfolio</h2>
-                    <h3 class="section-subheading text-muted mb-5">Some <b class="hovercolor">colorful highlights</b> in my work or personal projects.</h3>
+                    <h3 class="section-subheading text-muted mb-5">Some <b class="hovercolor">colorful highlights</b> I'm proud of in my work.</h3>
                 </div>
                 <div class="row">
                     <div class="col-lg-4 col-sm-6 mb-4">
                         <div class="portfolio-item">
-                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1"
+                            <a class="portfolio-link" data-toggle="modal" href="#deepsteer"
                                 ><div class="portfolio-hover">
                                     <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                                 </div>
@@ -131,7 +132,7 @@
                     </div>
                     <div class="col-lg-4 col-sm-6 mb-4">
                         <div class="portfolio-item">
-                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2"
+                            <a class="portfolio-link" data-toggle="modal" href="#storeboard"
                                 ><div class="portfolio-hover">
                                     <!-- <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div> -->
                                 </div>
@@ -143,23 +144,9 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-sm-6 mb-4">
-                        <div class="portfolio-item">
-                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3"
-                                ><div class="portfolio-hover">
-                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                                </div>
-                                <img class="img-fluid" src="img/wscs.png" alt=""
-                            /></a>
-                            <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Women@SCS</div>
-                                <div class="portfolio-caption-subheading text-muted">Web development</div>
-                            </div>
-                        </div>
-                    </div>
                     <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
                         <div class="portfolio-item">
-                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal4"
+                            <a class="portfolio-link" data-toggle="modal" href="#branchout"
                                 ><div class="portfolio-hover">
                                     <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                                 </div>
@@ -167,13 +154,13 @@
                             /></a>
                             <div class="portfolio-caption">
                                 <div class="portfolio-caption-heading">Branch Out Education</div>
-                                <div class="portfolio-caption-subheading text-muted"></div>
+                                <div class="portfolio-caption-subheading text-muted">Education</div>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-sm-6 mb-4 mb-sm-0">
                         <div class="portfolio-item">
-                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal5"
+                            <a class="portfolio-link" data-toggle="modal" href="#inertialab"
                                 ><div class="portfolio-hover">
                                     <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                                 </div>
@@ -181,41 +168,87 @@
                             /></a>
                             <div class="portfolio-caption">
                                 <div class="portfolio-caption-heading">Inertia Simulator</div>
-                                <div class="portfolio-caption-subheading text-muted"></div>
+                                <div class="portfolio-caption-subheading text-muted">Web</div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <hr class="divider dark my-5" />
+                
+            </div>
+            <div class="container mt-4 text-center">
+                <h3 class="section-subheading text-muted my-4"><b>Writing</b></h3>
+                <h5 class="normal-font">
+                    <a href="https://aimless-agents.github.io/" target="_blank">aimless agents</a>, a joint technical blog I write with Tiffany Yu.<br/><br/>
+                    <a href="https://arxiv.org/abs/2001.01818" target="_blank">Artificial Intelligence for Social Good: A Survey</a> (2020)
+                </h5>
+            </div>
+        </section>
 
-                <div class="row">
-                    <div class="col-lg-6 col-sm-6 mb-4">
-                        <div class="portfolio-item">
-                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModalA1"
-                                ><div class="portfolio-hover">
-                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                                </div>
-                                <img class="img-fluid" src="img/ds.jpg" alt=""
-                            /></a>
-                            <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Dance</div>
-                            </div>
-                        </div>
+        <section class="page-section bg-light" id="interests">
+        <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Interests</h2>
+                    <br>
+                </div>
+
+                <div class="row mb-4">
+                    <div class="col-lg-2 mini-bubble">
+                        <img class="mx-auto rounded-circle dark-border" src="./img/icons/skate.png" alt="" />
                     </div>
-                    <div class="col-lg-6 col-sm-6 mb-4">
-                        <div class="portfolio-item">
-                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModalA2"
-                                ><div class="portfolio-hover">
-                                    <!-- <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div> -->
-                                </div>
-                                <img class="img-fluid" src="img/sk8.jpg" alt=""
-                            /></a>
-                            <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Skateboarding</div>
-                            </div>
-                        </div>
+                    <div class="col-lg-8">
+                        <h5>I started skating in freshman year of college. Currently working on honing my ollies, and looking at manuals & 150s next! Can't shuvit for my life though..</h5>
                     </div>
-                    
+                </div>
+                <div class="row mb-4">
+                    <div class="col-lg-2"></div>
+                    <div class="col-lg-8">
+                        <h5>I'm currently reading <a href="https://www.goodreads.com/book/show/2429135.The_Girl_with_the_Dragon_Tattoo" target="_blank"><i>Girl with the Dragon Tattoo</i></a> and <a href="https://www.goodreads.com/book/show/10357575-1q84" target="_blank"><i>1Q84</i></a>. I'm a huge fan of magical realism -- an all-time favorite of mine is <a href="https://www.goodreads.com/book/show/7048800-the-particular-sadness-of-lemon-cake" target="_blank"><i>The Particular Sadness of Lemon Cake</i></a>.</h5>
+                    </div>
+                    <div class="col-lg-2 mini-bubble">
+                        <img class="mx-auto rounded-circle dark-border" src="./img/icons/books.png" alt="" />
+                    </div>
+                </div>
+                <div class="row mb-4">
+                    <div class="col-lg-2 mini-bubble">
+                        <img class="mx-auto rounded-circle dark-border" src="./img/icons/movie.png" alt="" />
+                    </div>
+                    <div class="col-lg-8">
+                        <h5>There's so many good TV shows and movies right now. <br/>Current watches: Snowpiercer, Insecure, Wandavision <br/>Recent faves: I May Destroy You, Fleabag, Haunting of Hill House, Schitt's Creek</h5>
+                    </div>
+                </div>
+                <div class="row mb-4">
+                    <div class="col-lg-2"></div>
+                    <div class="col-lg-8">
+                        <h5>Hip hop and K-pop dance have always been interests (and preferred form of cardio) of mine. I'm very much still a beginner, but I do enjoy learning other people's awesome choreography. </h5>
+                    </div>
+                    <div class="col-lg-2 mini-bubble">
+                        <img class="mx-auto rounded-circle dark-border" src="./img/icons/dance.png" alt="" />
+                    </div>
+                </div>
+                <!--<div class="row mb-4">
+                    <div class="col-lg-2 mini-bubble">
+                        <img class="mx-auto rounded-circle dark-border" src="./img/icons/rocket.png" alt="" />
+                    </div>
+                    <div class="col-lg-8">
+                        <h5>I recently started getting into stocks -- very casually though, none of that r/WSB game. Always down to discuss them with anyone (with my <i>very</i> limited beginner expertise)!</h5>
+                    </div>
+                </div>-->
+                <div class="row mb-4">
+                    <div class="col-lg-2 mini-bubble">
+                        <img class="mx-auto rounded-circle dark-border" src="./img/icons/give.png" alt="" />
+                    </div>
+                    <div class="col-lg-8">
+                        <h5>Lately, I'm trying to give back more. Some resources I use are <a href="https://www.charitynavigator.org/" target="_blank">Charity Navigator</a> and <a href="https://www.givewell.org/" target="_blank">GiveWell</a>. Also, <a href="https://smile.amazon.com/" target="_blank">Amazon Smile</a> to have a percentage of your Amazon purchase donated to a charity of your choosing! I'm hoping to get back into community service as well.</h5>
+                    </div>
+                </div>
+                <div class="row mb-4">
+                    <div class="col-lg-2"></div>
+                    <div class="col-lg-8">
+                        <h5>I LOVE food and cooking. My tuna melts, chicken pasta, and guacamole are my pride and joy, and I'm always looking to learn new dishes.</h5>
+                    </div>
+                    <div class="col-lg-2 mini-bubble">
+                        <img class="mx-auto rounded-circle dark-border" src="./img/icons/avo.png" alt="" />
+                    </div>
                 </div>
             </div>
         </section>
@@ -259,7 +292,7 @@
             </div>
         </footer>
 
-        <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="portfolio-modal modal fade" id="deepsteer" tabindex="-1" role="dialog" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="close-modal" data-dismiss="modal"><img src="img/close-icon.svg" /></div>
@@ -271,10 +304,10 @@
                                     <h2 class="text-uppercase">Deep Steering</h2>
                                     <p class="item-intro text-muted">Deep neural network for predicting steering wheel angles.</p>
                                     <img class="img-fluid d-block mx-auto" src="img/deepsteer.jpg" alt="" />
-                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                                    <p>As my final project for Intro to Deep Learning, I worked on a team of 4 to develop and train a deep learning model to predict steering angles given road imagery for an autonomous driving agent. We utilized spatio-temporal convolutional nets and convolutional LSTMs in our architecture.</p>
                                     <ul class="list-inline">
                                         <li>2020</li>
-                                        <li>Python</li>
+                                        <li>Pytorch</li>
                                     </ul>
                                     <button class="btn btn-primary" data-dismiss="modal" type="button"><i class="fas fa-times mr-1"></i>Close</button>
                                 </div>
@@ -285,7 +318,7 @@
             </div>
         </div>
         <!-- Modal 2-->
-        <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="portfolio-modal modal fade" id="storeboard" tabindex="-1" role="dialog" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="close-modal" data-dismiss="modal"><img src="img/close-icon.svg" /></div>
@@ -310,33 +343,8 @@
                 </div>
             </div>
         </div>
-        <!-- Modal 3-->
-        <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="close-modal" data-dismiss="modal"><img src="img/close-icon.svg" /></div>
-                    <div class="container">
-                        <div class="row justify-content-center">
-                            <div class="col-lg-8">
-                                <div class="modal-body">
-                                    <!-- Project Details Go Here-->
-                                    <h2 class="text-uppercase">Women@SCS Web Dev</h2>
-                                    <!-- <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p> -->
-                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/03-full.jpg" alt="" />
-                                    <p>I work on redesigning and maintaining the new Women@SCS website. I'm also part of the committee that plans and organizes club events.</p>
-                                    <ul class="list-inline">
-                                        <li>2017 - present</li>
-                                        <li>PHP, CSS</li>
-                                    </ul>
-                                    <button class="btn btn-primary" data-dismiss="modal" type="button"><i class="fas fa-times mr-1"></i>Close</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+        
+        <div class="portfolio-modal modal fade" id="branchout" tabindex="-1" role="dialog" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="close-modal" data-dismiss="modal"><img src="img/close-icon.svg" /></div>
@@ -347,7 +355,7 @@
                                     <h2 class="text-uppercase">Branch Out Education</h2>
                                     <p class="item-intro text-muted">An organization dedicated to promoting equality in education.</p>
                                     <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/04-full.jpg" alt="" />
-                                    <p>In 2016, I cofounded the organization Branch Out with my friend and colleague Shreya Parjan, bringing educational opportunities to young innovators across all backgrounds. We launched our pilot program, the Innovation Lab, that summer.</p>
+                                    <p>In 2016, I co-founded the organization <a href="https://clairecw.github.io/branchout/en/" target="_blank">Branch Out</a> with my friend and colleague Shreya Parjan, bringing educational opportunities to young innovators (particularly those from lower socioeconomic backgrounds). That summer, we launched our pilot program, the Innovation Lab, a free 1-week boot camp teaching Python and basic entrepreneurial skills.</p>
                                     <ul class="list-inline">
                                         <li>2016 - 2018</li>
                                         <li>Education</li>
@@ -361,7 +369,7 @@
             </div>
         </div>
         <!-- Modal 5-->
-        <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="portfolio-modal modal fade" id="inertialab" tabindex="-1" role="dialog" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="close-modal" data-dismiss="modal"><img src="img/close-icon.svg" /></div>

@@ -9,3 +9,7 @@
 .hovercolor:hover {
   color: #AFBBF2;
 }
+
+#interests h5, .normal-font {
+  font-weight: normal;
+}
